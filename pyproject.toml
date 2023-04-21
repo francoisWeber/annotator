@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "annotator"
+version = "0.1.0"
+description = ""
+authors = ["François Weber <f.weber@qwant.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.17.0"
+watchdog = "^2.2.1"
+black = "^23.1.0"
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

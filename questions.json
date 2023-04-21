@@ -1,0 +1,14 @@
+{
+    "questions": [
+        {
+            "id": "n_character",
+            "label": "combien de personnes ?",
+            "type": "number",
+            "bounds": [
+                1,
+                5
+            ],
+            "default": 1
+        }
+    ]
+}
